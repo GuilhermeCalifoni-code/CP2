@@ -1,10 +1,8 @@
 // ========================================
-// Checkpoint 2 - Algoritmos e ProgramaÁ„o
+// Checkpoint 2 - Algoritmos e Programa√ß√£o
 // Grupo: Os Sobreviventes
 // Nome: Guilherme Califoni - RM: 565157
 // Nome: Antonio Lucas - RM: 565516
-// Nome: Lucas Mendes - RM: 563667
-// Nome: Dante Luiz   - RM: 565419
 // Nome: Rafael Silva - RM: 565415
 // Nome: Rafael Passo   - RM: 563075
 // ========================================
@@ -14,7 +12,7 @@
 #include <string.h>
 #include <ctype.h>
 
-// FunÁ„o 1
+// Fun√ß√£o 1
 void Fibonacci() {
     int n;
     do {
@@ -40,7 +38,7 @@ void Fibonacci() {
     printf("\n");
 }
 
-// FunÁ„o 2
+// Fun√ß√£o 2
 void Fatoriais() {
     int n;
     do {
@@ -66,7 +64,7 @@ void Fatoriais() {
     }
 }
 
-// FunÁ„o 3
+// Fun√ß√£o 3
 void VerificarPalindromo() {
     char palavra[101];
     printf("Digite uma palavra: ");
@@ -85,13 +83,13 @@ void VerificarPalindromo() {
     }
 
     if (ehPalindromo) {
-        printf("A palavra eh um palÌndromo.\n");
+        printf("A palavra eh um pal√≠ndromo.\n");
     } else {
-        printf("A palavra NAO eh um palÌndromo.\n");
+        printf("A palavra NAO eh um pal√≠ndromo.\n");
     }
 }
 
-// FunÁ„o 4
+// Fun√ß√£o 4
 void VerificarSubstring() {
     char textoPrincipal[101], textoPesquisa[101];
 
@@ -112,14 +110,14 @@ int main() {
     int opcao;
 
     do {
-        printf("\n===== MENU DE EXERCÕCIOS =====\n");
-        printf("1 - SequÍncia de Fibonacci\n");
+        printf("\n===== MENU DE EXERC√çCIOS =====\n");
+        printf("1 - Sequ√™ncia de Fibonacci\n");
         printf("2 - Fatoriais\n");
-        printf("3 - Verificar PalÌndromo\n");
+        printf("3 - Verificar Pal√≠ndromo\n");
         printf("4 - Verificar Substring\n");
         printf("0 - Sair\n");
         printf("==============================\n");
-        printf("Escolha uma opÁ„o: ");
+        printf("Escolha uma op√ß√£o: ");
         scanf("%d", &opcao);
         getchar();
 
@@ -140,7 +138,7 @@ int main() {
                 printf("Saindo do programa...\n");
                 break;
             default:
-                printf("OpÁ„o inv·lida. Tente novamente.\n");
+                printf("Op√ß√£o inv√°lida. Tente novamente.\n");
         }
 
         if (opcao != 0) {
