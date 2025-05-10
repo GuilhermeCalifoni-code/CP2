@@ -64,7 +64,7 @@ void Fatoriais() {
     }
 }
 
-// Função 3
+// Função 3 Responsável pelo Rafael Passos
 void VerificarPalindromo() {
     char palavra[101];
     printf("Digite uma palavra: ");
