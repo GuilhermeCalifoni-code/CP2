@@ -12,7 +12,7 @@
 #include <string.h>
 #include <ctype.h>
 
-// Função 1
+// Função 1 - Responsavel por Antonio Lucas
 void Fibonacci() {
     int n;
     do {
@@ -38,7 +38,7 @@ void Fibonacci() {
     printf("\n");
 }
 
-// Função 2 Responsavel pelo Guilherme Califoni
+// Função 2 - Responsavel pelo Guilherme Califoni
 void Fatoriais() {
     int n;
     do {
