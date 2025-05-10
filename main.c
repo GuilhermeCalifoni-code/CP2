@@ -89,7 +89,7 @@ void VerificarPalindromo() {
     }
 }
 
-// Função 4
+// Função 4 responsavel por Rafael Silva
 void VerificarSubstring() {
     char textoPrincipal[101], textoPesquisa[101];
 
