@@ -38,7 +38,7 @@ void Fibonacci() {
     printf("\n");
 }
 
-// Função 2
+// Função 2 Responsavel pelo Guilherme Califoni
 void Fatoriais() {
     int n;
     do {
